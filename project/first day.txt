@@ -1,0 +1,30 @@
+first day work
+
+Faiz Khan@DESKTOP-OINFBR3 MINGW64 ~
+$ cd
+
+Faiz Khan@DESKTOP-OINFBR3 MINGW64 ~
+$ cd desktop
+
+Faiz Khan@DESKTOP-OINFBR3 MINGW64 ~/desktop
+$ git clone https://github.com/Faizkhan36/Open-Source-Project.git
+Cloning into 'Open-Source-Project'...
+warning: You appear to have cloned an empty repository.
+
+Faiz Khan@DESKTOP-OINFBR3 MINGW64 ~/desktop
+$ ls
+'Cisco Packet Tracer.lnk'*  'Google Chrome.lnk'*  "Kiran's Typing Tutor.lnk"*     Node.js.lnk*           Ubuntu.
+ Dev-C++.lnk*                Grammarly.lnk*       'MySQL Workbench 8.0 CE.lnk'*   Open-Source-Project/  'Visual
+
+Faiz Khan@DESKTOP-OINFBR3 MINGW64 ~/desktop
+$ cd ^C
+
+Faiz Khan@DESKTOP-OINFBR3 MINGW64 ~/desktop
+$ cd  Open-Source-Project/
+
+Faiz Khan@DESKTOP-OINFBR3 MINGW64 ~/desktop/Open-Source-Project (main)
+$ git checkout -b faizkhan/1
+Switched to a new branch 'faizkhan/1'
+
+Faiz Khan@DESKTOP-OINFBR3 MINGW64 ~/desktop/Open-Source-Project (faizkhan/1)
+$
