@@ -1,0 +1,25 @@
+code for transfer the file from server to client
+
+Here is an example code using Python's built-in ftplib library to transfer a file from a server to a client:
+
+
+import ftplib
+
+def download_file(hostname, username, password, filename):
+    ftp = ftplib.FTP(hostname)
+    ftp.login(username, password)
+    with open(filename, 'wb') as f:
+        ftp.retrbinary('RETR %s' % filename, f.write)
+    ftp.quit()
+
+hostname = 'ftp.example.com'
+username = 'username'
+password = 'password'
+filename = 'example.txt'
+download_file(hostname, username, password, filename)
+
+
+
+This code connects to an FTP server at ftp.example.com using the specified username and password.
+It then downloads the file example.txt from the server and saves it to the local file system. 
+You can modify the code to suit your specific use case and requirements.
