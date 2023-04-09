@@ -1,0 +1,16 @@
+Steps to set up FileZilla Server and FileZilla Client for file transfer:
+ 
+                                                   Setting up FileZilla Server:
+
+Download and install FileZilla Server on your server computer.
+Launch FileZilla Server and configure the server settings, such as the IP address, port, and user accounts.
+Create a shared folder or select an existing folder that you want to use for file transfer.
+Set the appropriate permissions for the shared folder to allow users to upload and download files.
+Configure the server firewall to allow incoming connections on the server's port.
+
+Setting up FileZilla Client:
+Download and install FileZilla Client on your client computer.
+Launch FileZilla Client and enter the server's IP address, port, and login credentials.
+Connect to the server and browse to the shared folder that you want to transfer files to or from.
+Drag and drop the files that you want to transfer from the local computer to the remote server or vice versa.
+Monitor the transfer progress and ensure that the files are transferred successfully.
